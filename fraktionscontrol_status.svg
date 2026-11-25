@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06152f"/><stop offset="0.52" stop-color="#020812"/><stop offset="1" stop-color="#071126"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4da0ff"/><stop offset=".5" stop-color="#0875ff"/><stop offset="1" stop-color="#0039a8"/></linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="0.8" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#aebbd0"/></linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="12" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#bg)"/>
+  <path d="M0 0H260L0 260Z" fill="#075be5" opacity=".65"/><path d="M0 0H180L0 180Z" fill="#0b1c3d"/>
+  <path d="M1200 1200H940L1200 940Z" fill="#075be5" opacity=".65"/><path d="M1200 1200H1020L1200 1020Z" fill="#0b1c3d"/>
+  <path d="M90 130 560 0h38L128 130Z" fill="#12366e" opacity=".6"/><path d="M1070 1200 1200 1070v-36L1034 1200Z" fill="#12366e" opacity=".6"/>
+  <!-- center shield -->
+  <path d="M600 180 865 276 842 545 600 725 358 545 335 276Z" fill="#020813" stroke="url(#blue)" stroke-width="16"/>
+  <path d="M600 205 832 289 813 526 600 688 387 526 368 289Z" fill="#08152b" stroke="#0a3f8d" stroke-width="4"/>
+  <!-- FC monogram -->
+  <path d="M410 315H675L640 382H490L470 445H620L590 508H445L420 600H335Z" fill="url(#silver)"/>
+  <path d="M715 315H860L835 385H720L695 450H815L790 515H680L650 580H770L740 645H600L620 500 650 405Z" fill="url(#silver)"/>
+  <!-- service icon cards -->
+  <g transform="rotate(-8 190 460)"><rect x="65" y="360" width="250" height="190" rx="25" fill="#071326" stroke="#162b4d" stroke-width="10"/><path d="M140 425c-25 5-42 28-42 54 0 20 13 38 33 44l-5 18 40-10-7-25c-17-3-29-18-29-35 0-14 8-27 21-33l-11-13Z" fill="#4168a8"/><circle cx="185" cy="453" r="17" fill="#081326"/><circle cx="225" cy="453" r="17" fill="#081326"/><circle cx="278" cy="530" r="14" fill="#16d486"/><text x="190" y="602" text-anchor="middle" font-family="Arial,sans-serif" font-size="38" fill="#aabbd8">Bot</text></g>
+  <g transform="rotate(8 1010 460)"><rect x="885" y="360" width="250" height="190" rx="25" fill="#071326" stroke="#162b4d" stroke-width="10"/><rect x="940" y="410" width="145" height="100" rx="12" fill="none" stroke="#4168a8" stroke-width="12"/><path d="M965 455h18v18h-18zm38 0h18v18h-18zm38 0h18v18h-18z" fill="#4168a8"/><circle cx="1110" cy="530" r="14" fill="#16d486"/><text x="1010" y="602" text-anchor="middle" font-family="Arial,sans-serif" font-size="38" fill="#aabbd8">TeamDash</text></g>
+  <!-- online badges -->
+  <g font-family="Arial,sans-serif" font-weight="bold" fill="#18d68a"><rect x="95" y="625" width="205" height="65" rx="33" fill="#05251e" stroke="#087a50" stroke-width="4"/><circle cx="130" cy="657" r="12"/><text x="160" y="670" font-size="30">Online</text><rect x="900" y="625" width="205" height="65" rx="33" fill="#05251e" stroke="#087a50" stroke-width="4"/><circle cx="935" cy="657" r="12"/><text x="965" y="670" font-size="30">Online</text></g>
+  <!-- green check badge -->
+  <g filter="url(#glow)"><circle cx="805" cy="555" r="72" fill="#052b20" stroke="#13d884" stroke-width="12"/><path d="M770 555 795 580 842 528" fill="none" stroke="#fff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="600" y="870" text-anchor="middle" font-family="Arial,sans-serif" font-size="110" font-weight="700" letter-spacing="-4" fill="url(#silver)">Fraktions<tspan fill="#1478ff">Control</tspan></text>
+  <path d="M60 930H570L600 900 630 960 660 930H1140" fill="none" stroke="#1478ff" stroke-width="5"/>
+  <path d="M180 1010H435M765 1010H1020" stroke="#51647f" stroke-width="4"/>
+  <text x="600" y="1030" text-anchor="middle" font-family="Arial,sans-serif" font-size="48" letter-spacing="24" fill="#d5dfef">STATUS</text>
+</svg>
